@@ -1,0 +1,11 @@
+{
+    "description": "desc",
+    "license": "MIT",
+    "name": "sofket/app",
+    "autoload": {
+        "psr-4": {
+            "Sofket\\App\\": "src/"
+        }
+    },
+    "require": {}
+}
