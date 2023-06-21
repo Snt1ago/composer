@@ -1,8 +1,8 @@
 <?php
 
+use Sofket\App\Libs\Controlador;
 
-
-class Articulo_Controller
+class Articulo_Controller extends Controlador
 {
     public function __construct()
     {
@@ -11,7 +11,8 @@ class Articulo_Controller
 
     function listar()
     {
-        echo "contro aritculos metod listar";
+        //echo "contro aritculos metod listar";
+        $this->cargarVista('articulos/listar');
     }
     // '
     //     base+articulos
