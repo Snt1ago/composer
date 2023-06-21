@@ -12,6 +12,6 @@ class Controlador
   public function cargarVista($rutaVista, $datos = null)
   {
     $this->datos = $datos;
-    require_once("src/vista/Articulos");
+    require_once("src/vista/" . $rutaVista . ".php");
   }
 }

@@ -12,7 +12,7 @@ class Articulo_Controller extends Controlador
     function listar()
     {
         //echo "contro aritculos metod listar";
-        $this->cargarVista('articulos/listar');
+        $this->cargarVista('articulo/listar');
     }
     // '
     //     base+articulos
